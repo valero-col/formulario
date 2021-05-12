@@ -1,0 +1,49 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<body>
+<form>
+  <div class="container p-4" id="container">
+    <div id="TitleBar">
+      <h1>
+        {{ title }}
+      </h1>
+    </div>
+    <br />
+    
+    <div class="col-md-4 mx-auto" id="label">
+      <br />
+      <label for="exampleFormControlInput1" class="form-label"></label>
+      <h2>Correo electrónico</h2>
+      <br />
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" />
+      <br />
+      <label for="exampleFormControlInput1" class="form-label">
+        <h2>Nombre</h2>
+      </label>
+      <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example" />
+      <br />
+      <label for="exampleFormControlInput1" class="form-label">
+        <h2>Apellido</h2>
+      </label>
+      <input class="form-control" type="text" placeholder="Apellido" aria-label="default input example" />
+      <br />
+      <label for="exampleFormControlInput1" class="form-label">
+        <h2>Teléfono</h2>
+      </label>
+      <input class="form-control" type="text" placeholder="Teléfono" aria-label="default input example" />
+      <br />
+      <!--Alert-->
+      <div class="alert alert-success" role="alert">
+        Dato guardado con éxito
+      </div>
+      <div class="alert alert-danger" role="alert">
+        Formulario Cancelado
+      </div>
+      <!--Buttons-->
+      <button type=" submit button" class="btn btn-success btn-block">Guardar</button>
+      <button class="btn" type="btn-danger">Anular</button>
+      <button type="button" class="btn btn-dark">Editar Formulario</button>
+      <button type="button" class="btn btn-info">Listar</button>
+    </div>
+  </div>
+</form>
+</body>

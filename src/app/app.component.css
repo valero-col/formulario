@@ -1,0 +1,29 @@
+#container {
+    text-align: center;
+    border-radius: 3px;
+    border-color: gray;
+    display: block;
+  }
+  #TitleBar {
+    text-align: center;
+    background: black;
+    border-spacing: 3px;
+    padding: 3px;
+    display: block;
+  }
+  
+  h1 {
+    font-style: inherit;
+    top: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif 3px;
+    color: #ffff;
+    margin: 0px;
+  }
+  * {
+    padding: auto;
+    margin: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
